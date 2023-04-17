@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: beige;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.form{
+    background-color: white;
+    width: 50%;
+    max-width: 400px;
+    border-radius: 25px;
+    text-align: center;
+    padding-inline: 20px;
+    padding-bottom: 25px;
+
+}
+
+#title{
+    font-family: sans-serif;
+    margin-block: 20px;
+    color: #5e84d6;
+}
+
+input{
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    text-align: center;
+    margin-block: 8px;
+    border: none;
+    background-color: #f2f4f7;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+
+}
+
+#forgotPasswordTxt{
+    margin-top: 20px;
+    display: none;
+}
+
+a {
+    transition: .5s;
+    font-size: 18px;
+    text-decoration: none;
+    color: slateblue;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+a:hover{
+    transition: .2s;
+    color: #5915bf;
+}
+
+#signupTxt{
+    padding-left: 10px;
+}
+
+#login{
+    font-family: sans-serif;
+    color: #38353b;
+    font-weight: 600;
+
+}
+
+.bottom-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+
+input[type="button"]{
+    margin-block: 20px;
+    background-color: #ab76c4;
+    font-size: 22px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: white;
+    transition: .5s;
+}
+
+input[type="button"]:hover{
+    background-color: #9942c2;
+
+}
